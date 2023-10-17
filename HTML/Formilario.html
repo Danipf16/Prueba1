@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="milto:Falbaro093@gmail.es" method="post" enctype="text/plaim">
+        <p>Escribe tu nombre</p>
+        <input type="text" name="nombre" size="20" maxlength="10">
+        <p>Escribe tu contraseña</p>
+        <input type="password" name="pass" size="20" maxlength="10">
+
+        <p>Dame una direccion</p>
+        <textarea name="direc" rows="3" cols="10"> </textarea>
+        <br>
+        <br>
+
+        <select name="color" size="2">
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="amarillo">Amarillo</option>
+        </select>
+
+        <br>
+
+        <br>
+
+        ¿cual es tu sistema operativo favorito?<br>
+        <p><input type="radio" value="linux" name="operativo">Linux</p>
+        <p><input type="radio" value="windows" name="operativo">Windows</p>
+        <p><input type="radio" value="ios" name="operativo">Mac</p>
+
+        <br>
+
+        <br>
+
+        <input type="checkbox" name="terminos" value="si">Acepta los terminos de la web
+        
+        
+        <br>
+        <br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+</html>
