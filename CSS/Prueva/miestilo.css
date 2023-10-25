@@ -1,0 +1,33 @@
+/* */
+
+body{
+    background-color: rgb(10, 127, 236);
+}
+h1{
+    text-align: center; color: black;
+}
+/*p{
+    border: red 1em solid;
+    font-family: serif;
+}*/
+/*div{
+    border: black 2px solid;
+    font-size: 1.5em;
+}*/
+#p1{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: red 25px solid;
+}
+#p2{
+    width: 200px;
+    height: 100px;
+    box-sizing: content-box;
+    border: rgb(255, 255, 255) 25px solid;  
+}
+#p3{
+    width: 200px;
+    height: 100px;
+    border: rgb(165, 253, 1) 25px solid;
+}
